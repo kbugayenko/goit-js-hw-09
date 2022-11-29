@@ -26,20 +26,20 @@ img {
   flex-direction: column;
   align-items: center;
 
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .field:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 14px;
 }
 
 .value {
-  font-size: 25px;
-  font-weight: 400;
-  font-style: italic;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .label {
-  font-size: 15px;
-  font-style: italic;
+  font-size: 12px;
+  text-transform: uppercase;
 }
