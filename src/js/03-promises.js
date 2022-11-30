@@ -19,7 +19,7 @@ function onSubmite(e) {
   let delay = Number(e.currentTarget.delay.value);
   const step = Number(e.currentTarget.step.value);
   const amount = Number(e.currentTarget.amount.value);
-  for (i = 1; i <= amount; i += 1) {
+  for (let i = 1; i <= amount; i += 1) {
     createPromise(i, delay).then(onSuccess).catch(onError);
     delay += step;
   }
